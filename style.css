@@ -1,0 +1,164 @@
+* {
+    font-family: 'PT Mono';
+  }
+  
+  body {
+    background-image: url('./imgs/walpaper.jpg');
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: center;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+  }
+  
+  .pagina_principal {
+    position: relative;
+    background-color: #ffffffce;
+    width: 90%;
+    margin: auto;
+    padding: 10px;
+    border-radius: 15px;
+    box-shadow: 0 0 15px rgba(0, 0, 0, 0.3);
+  }
+  
+  .inicio_pagina {
+    text-align: center;
+  }
+  
+  #primeiro_h1_curriculo {
+    margin-top: 20px;
+  }
+  
+  .formatacao_inicio_fim {
+    width: 81%;
+    margin: auto;
+    padding: 6%;
+    background-color: #7D79F7;
+    position: relative;
+    font-size: 3rem;
+    border-radius: 10px;
+    text-align: center;
+    color: #06236A;
+  }
+  
+  #segundo_h1_nome {
+    margin: auto;
+    width: 90%;
+    padding: 2%;
+    background-color: #88619A;
+    position: relative;
+    top: 40px;
+    font-size: 2.5rem;
+    border-radius: 10px;
+    margin-top: 2%;
+    color: #ffff;
+  }
+  
+  #foto_eris {
+    display: block;
+    margin: auto;
+    border-radius: 50%;
+    border: 8px solid #8855e5;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.5);
+    max-width: 100%;
+    height: auto;
+    margin-top: 6%;
+  }
+  
+  p {
+    border: 2px solid transparent;
+    padding-right: 5px;
+    line-height: 60px;
+    font-size: 23px;
+  }
+  
+  ul {
+    border: 2px solid transparent;
+    padding-right: 5px;
+    line-height: 60px;
+    font-size: 23px;
+  }
+  
+  .pagina_principal h1,
+  .pagina_principal p {
+    margin-top: 1%;
+  }
+  
+  .pagina_principal h2 {
+    border: 2px solid red;
+    border-top: 10px solid #6d4dd6;
+    border-left: 2px solid #6d4dd6;
+    border-right: 2px solid #6d4dd6;
+    border-bottom: 10px solid #6d4dd6;
+    background-color: rgba(255, 255, 255, 0.785);
+  }
+  
+  .pagina_principal h2,
+  .texto_conteudo {
+    margin: auto;
+    font-size: 2rem;
+    padding: 2%;
+    width: 91%;
+    margin-top: 5%;
+    line-height: 40px;
+    background-color: rgba(255, 255, 255, 0.488);
+  
+  }
+  
+  a {
+    color: #000;
+  }
+  
+  a:hover {
+    color: #6d4dd6;
+    background-color: #4215d6;
+  }
+  
+  table {
+    margin: auto;
+    width: 40%;
+    border-collapse: collapse;
+    background-color: rgba(31, 42, 125, 0.659);
+    text-align: center;
+    font-size: 2rem;
+    margin-top: 3%;
+  }
+  
+  table th,
+  table td {
+    padding: 20px;
+    border: 2px solid #000;
+    text-align: center;
+  }
+  
+  table th {
+    background-color: #7D79F7;
+    color: #06236A;
+  }
+  
+  th,
+  td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+    color: #7D79F7;
+  }
+  
+  tr:nth-child(even) {
+    background-color: #06236A;
+  }
+  
+  tr:nth-child(odd) {
+    background-color: #ffffff;
+  }
+  
+  tr:hover td {
+    color: #06236A;
+    background-color: #7D79F7;
+  }
+  
+  footer {
+    margin-top: 8%;
+    padding-bottom: 2%;
+  }
